@@ -12,7 +12,7 @@ exports.run = (client, message, params) => {
   .addField("**Yetkilisi Komutlar**", `?ban = İstediğiniz Kişiyi Sunucudan Banlar. \n?kick  = İstediğiniz Kişiyi Sunucudan Atar. \n?unban = İstediğiniz Kişinin Yasağını Açar. \n?sustur = İstediğiniz Kişiyi Susturur. \n?oylama = Oylama Açar. \n?duyuru = Güzel Bir Duyuru Görünümü Sağlar.`)
   .addField("**Ana Komutlar**", "?yardım = BOT Komutlarını Atar. \n?bilgi = BOT Kendisi Hakkında Bilgi Verir. \n?ping = BOT Gecikme Süresini Söyler. \n?davet = BOT Davet Linkini Atar. \n?istatistik = BOT İstatistiklerini Atar.")
   .addField("**Yapımcı**", " **https://discord.gg/8wUA8rH** ")
-  .setFooter('**Robloxçular için**')
+  .setFooter('**BLACK DIAMOND**')
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
     const longest = commandNames.reduce((long, str) => Math.max(long, str.length), 0);
